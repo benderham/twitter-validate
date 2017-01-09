@@ -1,6 +1,6 @@
 {
   "name": "twitter-validate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Twitter handle validation tool. Checks whether a provided handle meets Twitter's handle criteria. Also provides a method to check whether a provided twitter handle already exists online.",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
     "validate"
   ],
   "author": "Ben Derham",
-  "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "livescript": "^1.5.0",
