@@ -2,6 +2,7 @@ lib/
 test/test.js
 
 node_modules/
+npm-debug.log
 
 # OSX
 .DS_Store
