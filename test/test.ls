@@ -10,7 +10,13 @@ describe "Validate Twitter Handle:" (_) ->
     given = "twitter"
     actual = validate(given)
     expect(actual).to.eql(expected)
-
+    
+  it "It should not accept latin characters" ->
+    expected = false
+    given = "@twittér"
+    actual = validate(given)
+    expect(actual).to.eql(expected)
+    
   it "It should accept an '_'" ->
     expected = true
     given = "@twitter_handle"
