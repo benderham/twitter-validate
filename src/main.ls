@@ -1,7 +1,7 @@
 https = require \https
 
 validate = (handle) ->
-  re = /^@(\w){1,15}$/
+  re = /^(?:@)([A-Za-z0-9_]){1,15}$/
   re.test handle
 
 exists = (handle, cb) ->
